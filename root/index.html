@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap" rel="stylesheet">
     <title>Document</title>
-
     <link rel="stylesheet" href="/root/css/style.css">
 
 </head>
@@ -23,11 +24,11 @@
             <nav>
                 <!--barra de navegacion-->
                 <ul class="menu-principal">
-                    <li>Pricing </li>
-                    <li>Product</li>
-                    <li> <span>About Us</span> </li>
-                    <li>Careers</li>
-                    <li>Community</li>
+                    <li class="gris1">Pricing </li>
+                    <li class="gris2">Product</li>
+                    <li class="gris3">About Us</li>
+                    <li class="gris4">Careers</li>
+                    <li class="gris5">Community</li>
                 </ul>
             </nav>
         </div>
@@ -35,6 +36,10 @@
             <button class="reaccion" type="submit">Get Started</button>
 
         </form>
+
+        <div>
+            <img class="burguer" src="/root/css/imagenes/icon-hamburger.svg" alt="hamburguesa">
+        </div>
     </header>
 
     <section class="seccion1">
@@ -63,7 +68,7 @@
     <section class="seccion2">
         <div>
             <!--caja de parrafo-->
-            <h2>What´s different about
+            <h2>What's different about
                 Manage?</h2>
             <p>
                 Manage provides all the functionality your
@@ -78,7 +83,7 @@
             <!--lista ordenada-->
             <ol>
 
-                <li> <button>01</button> company-wide progress</li>
+                <li> <button class="botone-lista">01</button> company-wide progress</li>
                 <p>
                     See how your day-to-day tasks fit into the wider vision.
                     Go from tracking progress at the milestone level all the
@@ -86,14 +91,14 @@
                     of the bigger picture again.
                 </p>
 
-                <li> <button>02</button> built-in reports</li>
+                <li> <button class="botone-lista">02</button> built-in reports</li>
                 <p>
                     Set internal delivery estimates and track progress
                     toward company goals. Our customisable dashboard
                     helps you build out the reports you need to keep
                     key stakeholders informed.</p>
 
-                <li> <button>03</button> you need in one place</li>
+                <li> <button class="botone-lista">03</button> you need in one place</li>
                 <p>
                     Stop jumping from one service to another to communicate,
                     store files, track tasks and share documents. Manage
@@ -105,14 +110,14 @@
     <!--tercera seccion- las cards-->
     <div>
         <h3>
-            What they´ve said</h3>
+            What they've said</h3>
     </div>
     <section class="seccion3">
         <div class="cards">
             <img src="/root/css/imagenes/avatar-anisha.png" alt="mujer">
             <h4>Ali Bravo</h4>
             <p>
-                “Manage has supercharged our team´s workflow.
+                “Manage has supercharged our team's workflow.
                 The ability to maintain visibility on
                 larger milestones at all times keeps
                 everyone motivated.”
@@ -129,7 +134,7 @@
                 is much more focused.”
             </p>
             <form>
-                <button class="reaccion" type="submit">Get Started</button>
+                <button class="cards-boton" type="submit">Get Started</button>
             </form>
         </div>
 
@@ -162,30 +167,35 @@
                     <img src="/root/css/imagenes/Logo2.png" alt="logo-manage">
                 </div>
 
-                <div>
-                    <img src="/root/css/imagenes/Iconos redes sociales.png" alt="redes-sociales">
+                <div class="iconos-de-redes-sociales">
+                 <i class="fa-brands fa-facebook-square"></i>
+                 <i class="fa-brands fa-youtube-square"></i>
+                 <i class="fa-brands fa-twitter"></i>
+                 <i class="fa-brands fa-pinterest"></i>
+                 <i class="fa-brands fa-instagram"></i>
                 </div>
+
             </div>
             <!--listas-->
             <div>
                 <ul class="lista-navegacion">
-                    <li>Home</li>
-                    <li>Pricing</li>
-                    <li>Products</li>
-                    <li>About Us</li>
+                    <li class="naranja1">Home</li>
+                    <li class="naranja2">Pricing</li>
+                    <li class="naranja3">Products</li>
+                    <li class="naranja4">About Us</li>
                 </ul>
             </div>
             <div>
                 <ul class="lista-contacto ">
-                    <li>Careers</li>
-                    <li class="palabra-naranja">Community</li>
-                    <li>Privacy Policy</li>
+                    <li class="naranja5">Careers</li>
+                    <li class="naranja6">Community</li>
+                    <li class="naranja7">Privacy Policy</li>
                 </ul>
             </div>
             <div>
                 <form class="formulario">
                    
-                     <label for="email">email</label>
+                    <label for="email">email</label>
                     <input class="mail" type="email">
                     <button class="boton-go">Go</button>
 
